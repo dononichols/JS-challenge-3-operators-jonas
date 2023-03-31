@@ -19,6 +19,43 @@ TEST DATA:
 -Dolphins score 96, 108, and 89.
 -Koalas scrore 88, 91, 110.
 
+*/
 
+// ------------
+
+/*
+// 1. get the average of each:
+
+const scoreDolphins = ( 96 + 108 + 89 ) / 3;
+const scoreKoalas = ( 88 + 91 + 110 ) / 3;
+console.log(scoreDolphins, scoreKoalas);
+
+// 2. compare averages:
+
+if (scoreDolphins > scoreKoalas ) {
+    console.log('Dolphoins Win the Trouphy!');
+} else if (scoreKoalas > scoreDolphins) {
+    console.log('Koalas win the Trophy!');
+} else if (scoreDolphins === scoreKoalas) {
+    console.log('Both win the Trophy!');
+}
 
 */
+
+// BONUS #1 & #2
+
+const scoreDolphins = ( 97 + 112 + 101 ) / 3;
+const scoreKoalas = ( 109 + 95 + 123 ) / 3;
+console.log(scoreDolphins, scoreKoalas);
+
+// 2. compare averages:
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+    console.log('Dolphoins Win the Trouphy!');
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+    console.log('Koalas win the Trophy!');
+} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+    console.log('Both win the Trophy!');
+} else {
+    console.log('No One Wins!');
+}
